@@ -1,0 +1,80 @@
+ @tailwind base;
+ @tailwind components;
+ @tailwind utilities;
+
+ @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700&display=swap');
+
+ /* CSS RESET */
+ *,
+ *::before,
+ *::after {
+   box-sizing: border-box;
+ }
+
+ * {
+   margin: 0;
+ }
+
+ body {
+   line-height: 1.5;
+   -webkit-font-smoothing: antialiased;
+ }
+
+ img,
+ picture,
+ video,
+ canvas,
+ svg {
+   display: block;
+   max-width: 100%;
+ }
+
+ input,
+ button,
+ textarea,
+ select {
+   font: inherit;
+ }
+
+ p,
+ h1,
+ h2,
+ h3,
+ h4,
+ h5,
+ h6 {
+   overflow-wrap: break-word;
+ }
+
+ /* APP */
+
+ body {
+   background-color: #07000d;
+   background-image: url("https://www.transparenttextures.com/patterns/cartographer.png");
+   color: white;
+   font-family: 'Rubik', sans-serif;
+ }
+
+ /* container */
+
+ .container {
+   max-width: 1200px;
+   margin: 0 auto;
+ }
+
+ /* todos list */
+
+
+ .todos {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   gap: 1rem;
+ }
+
+ .form {
+   display: flex;
+   gap: 0.5rem;
+   width: 50%;
+   margin: 1rem auto;
+ }
